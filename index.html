@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <h1>Our School</h1>
+    </div>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- Hamburger Icon for Mobile -->
+        <div class="hamburger" id="hamburger">
+            &#9776;
+        </div>
+    </nav>
+</header>
+
+
+    <!-- Hero Section with Typewriter Effect -->
+    <section id="hero" class="hero">
+        <h2 id="typewriter"></h2>
+        <p>Providing world-class education and nurturing creativity.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section fade-in">
+        <div class="container">
+            <h2>About Us</h2>
+            <p id="aboutpara">Our school has a rich history of academic excellence and is committed to providing a comprehensive educational experience. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestias magni earum, assumenda delectus aperiam necessitatibus laboriosam. Debitis harum, ea, sint ratione reprehenderit labore doloribus voluptas dolore nam adipisci maxime assumenda tenetur, quidem perferendis aliquid deleniti officia laboriosam optio laborum ullam rem vel molestias! Aliquid alias deleniti neque dolorum iure sit beatae! Quisquam inventore debitis libero consequuntur voluptas voluptate fugit facilis qui quos nihil nostrum veniam error assumenda porro placeat ipsum beatae cum facere accusamus cumque eos quidem, harum pariatur? Cum esse, cumque tempore consectetur quibusdam beatae, similique debitis veritatis aut odit, itaque placeat! Adipisci consectetur necessitatibus voluptatibus quasi. Doloribus.</p>
+        </div>
+    </section>
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+    <h1 id="glc">Glimps of our school</h1>
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img1.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img2.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img3.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  
+
+    <!-- Courses Section -->
+    <section id="courses" class="section">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="courses-list">
+                <div class="course-item" data-course="math">
+                    <h3>Mathematics</h3>
+                    <button class="more-info-btn">More Info</button>
+                    <div class="course-details">
+                        <p>Our Mathematics course covers algebra, calculus, geometry, and more, providing students with a strong foundation in analytical thinking.</p>
+                    </div>
+                </div>
+                <div class="course-item" data-course="science">
+                    <h3>Science</h3>
+                    <button class="more-info-btn">More Info</button>
+                    <div class="course-details">
+                        <p>The Science course includes physics, chemistry, biology, and environmental science, fostering curiosity and experimental skills.</p>
+                    </div>
+                </div>
+                <div class="course-item" data-course="languages">
+                    <h3>Languages</h3>
+                    <button class="more-info-btn">More Info</button>
+                    <div class="course-details">
+                        <p>Our Language program offers courses in English, Spanish, French, and more, helping students become fluent in diverse languages.</p>
+                    </div>
+                </div>
+                <div class="course-item" data-course="arts">
+                    <h3>Arts</h3>
+                    <button class="more-info-btn">More Info</button>
+                    <div class="course-details">
+                        <p>Explore your creative potential through courses in visual arts, music, theater, and design, where imagination meets technique.</p>
+                    </div>
+                </div>
+                <div class="course-item" data-course="sports">
+                    <h3>Sports</h3>
+                    <button class="more-info-btn">More Info</button>
+                    <div class="course-details">
+                        <p>Our Sports program focuses on physical fitness, teamwork, and leadership, offering various sports activities and competitions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2>What Our Students Say</h2>
+            <div class="testimonial-slider">
+                <!-- Testimonial Card 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-img">
+                        <img src="minimg.jpg" alt="John Doe">
+                    </div>
+                    <p class="testimonial-text">"The best school ever! The teachers are amazing, and the environment is perfect for learning."</p>
+                    <div class="stars">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9734;</span>
+                    </div>
+                    <span class="testimonial-name">John Doe</span>
+                </div>
+    
+                <!-- Testimonial Card 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-img">
+                        <img src="minimg.jpg" alt="Jane Smith">
+                    </div>
+                    <p class="testimonial-text">"I love the extracurricular activities and the way the school fosters creativity."</p>
+                    <div class="stars">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9734;</span>
+                        <span class="star">&#9734;</span>
+                    </div>
+                    <span class="testimonial-name">Jane Smith</span>
+                </div>
+    
+                <!-- Testimonial Card 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-img">
+                        <img src="minimg.jpg" alt="Sam Lee">
+                    </div>
+                    <p class="testimonial-text">"The facilities are top-notch, and I’ve learned so much in a short time."</p>
+                    <div class="stars">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <span class="testimonial-name">Sam Lee</span>
+                </div>
+                <!-- Testimonial Card 3 -->
+            <div class="testimonial-card">
+                <div class="testimonial-img">
+                    <img src="minimg.jpg" alt="Sam Lee">
+                </div>
+                <p class="testimonial-text">"The facilities are top-notch, and I’ve learned so much in a short time."</p>
+                <div class="stars">
+                    <span class="star">&#9733;</span>
+                    <span class="sta     r">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <span class="testimonial-name">Sam Lee</span>
+            </div>
+            <!-- Testimonial Card 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-img">
+                        <img src="minimg.jpg" alt="John Doe">
+                    </div>
+                    <p class="testimonial-text">"The best school ever! The teachers are amazing, and the environment is perfect for learning."</p>
+                    <div class="stars">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9734;</span>
+                    </div>
+                    <span class="testimonial-name">John Doe</span>
+                </div>
+    
+                <!-- Testimonial Card 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-img">
+                        <img src="minimg.jpg" alt="Jane Smith">
+                    </div>
+                    <p class="testimonial-text">"I love the extracurricular activities and the way the school fosters creativity."</p>
+                    <div class="stars">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9734;</span>
+                        <span class="star">&#9734;</span>
+                    </div>
+                    <span class="testimonial-name">Jane Smith</span>
+                </div>
+    
+                <!-- Testimonial Card 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-img">
+                        <img src="minimg.jpg" alt="Sam Lee">
+                    </div>
+                    <p class="testimonial-text">"The facilities are top-notch, and I’ve learned so much in a short time."</p>
+                    <div class="stars">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <span class="testimonial-name">Sam Lee</span>
+                </div>
+                <!-- Testimonial Card 3 -->
+            <div class="testimonial-card">
+                <div class="testimonial-img">
+                    <img src="minimg.jpg" alt="Sam Lee">
+                </div>
+                <p class="testimonial-text">"The facilities are top-notch, and I’ve learned so much in a short time."</p>
+                <div class="stars">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <span class="testimonial-name">Sam Lee</span>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+            <!-- Buttons to control carousel -->
+            <!-- <div class="carousel-nav">
+                <button class="prev-btn">&#10094;</button>
+                <button class="next-btn">&#10095;</button>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>For more information, email us at info@ourschool.com or call (555) 123-4567.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Our School. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
