@@ -34,10 +34,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    /* top: 0; */
-    /* z-index: 100; */
+    /* Removed sticky behavior */
+    position: static; /* Default position, the header will not stick */
 }
+
 
 header .logo h1 {
     font-size: 36px;
